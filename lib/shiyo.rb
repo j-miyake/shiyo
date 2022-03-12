@@ -1,8 +1,16 @@
 # frozen_string_literal: true
 
+require_relative "shiyo/error"
 require_relative "shiyo/version"
+require_relative "shiyo/conversion"
+require_relative "shiyo/syntax_sugger"
+require_relative "shiyo/specification"
+require_relative "shiyo/and"
+require_relative "shiyo/or"
+require_relative "shiyo/not"
 
+# The top module of Shiyo
 module Shiyo
-  class Error < StandardError; end
-  # Your code goes here...
+  extend Shiyo::Conversion
+  extend Shiyo::SyntaxSugger
 end
