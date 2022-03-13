@@ -1,11 +1,13 @@
 # Shiyo
 [![johnny-miyake](https://circleci.com/gh/johnny-miyake/shiyo.svg?style=svg)](https://github.com/johnny-miyake/shiyo)
 
-Shiyo is a minimal framework that supports writing your business rules using the Specification pattern.
+Shiyo is a minimal framework that supports writing your business rules using the [Specification pattern](https://en.wikipedia.org/wiki/Specification_pattern).
 It enables to build composite specifications by method chaining like;
 ```ruby
 spec1.and(spec2.or(spec3)).satisfied_by?(candidate)
 ```
+
+[API documentation](https://www.rubydoc.info/gems/shiyo)
 
 ## Installation
 
@@ -24,7 +26,12 @@ Or install it yourself as:
     $ gem install shiyo
 
 ## Usage
+You can create your own Shiyo specification as following steps;
+1. Include `Shiyo::Specification` module into your class.
+2. Implement `#satisfied_by?`.
+3. (optional) Implement `#initialize` if needed.
 
+For example;
 ```ruby
 # A specification class
 class ContainerFeatureSpec
