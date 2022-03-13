@@ -1,4 +1,5 @@
 # Shiyo
+[![johnny-miyake](https://circleci.com/gh/johnny-miyake/shiyo.svg?style=svg)](https://github.com/johnny-miyake/shiyo)
 
 Shiyo is a minimal framework that supports writing your business rules using the Specification pattern.
 It enables to build composite specifications by method chaining like;
