@@ -2,7 +2,7 @@
 [![johnny-miyake](https://circleci.com/gh/johnny-miyake/shiyo.svg?style=svg)](https://github.com/johnny-miyake/shiyo)
 
 Shiyo is a minimal framework that supports writing your business rules using the [Specification pattern](https://en.wikipedia.org/wiki/Specification_pattern).
-It enables to build composite specifications by method chaining like;
+It helps you to build a composite specification by method chaining like;
 ```ruby
 spec1.and(spec2.or(spec3)).satisfied_by?(candidate)
 ```
