@@ -10,7 +10,6 @@ module Shiyo
     # @param one [Shiyo::Specification] A specification object.
     # @param other [Shiyo::Specification] The other specification object.
     def initialize(one, other)
-      super()
       @one = Shiyo::Specification(one)
       @other = Shiyo::Specification(other)
     end

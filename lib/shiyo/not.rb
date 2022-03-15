@@ -9,7 +9,6 @@ module Shiyo
     #
     # @param wrapped [Shiyo::Specification] A specification object.
     def initialize(wrapped)
-      super()
       @wrapped = Shiyo::Specification(wrapped)
     end
 
