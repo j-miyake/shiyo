@@ -6,9 +6,15 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Run the default task
+          name: bundle install
           command: |
             gem install bundler -v 2.3.7
             bundle install
-            bundle exec rubocop
+      - run:
+          name: Run RSpec
+          command: |
             bundle exec rake
+      - run:
+          name: Run Rubocop
+          command: |
+            bundle exec rubocop
