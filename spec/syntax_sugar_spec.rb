@@ -2,8 +2,8 @@
 
 require "spec_helper"
 
-RSpec.describe Shiyo::SyntaxSugger do
-  let(:target_module) { Module.new { extend Shiyo::SyntaxSugger } }
+RSpec.describe Shiyo::SyntaxSugar do
+  let(:target_module) { Module.new { extend Shiyo::SyntaxSugar } }
   let(:object) { instance_double(Shiyo::Specification) }
 
   before { allow(object).to receive(:to_shiyo).and_return(object) }

@@ -2,7 +2,7 @@
 
 module Shiyo
   # The module to provide syntax suggers.
-  module SyntaxSugger
+  module SyntaxSugar
     # rubocop:disable Naming/MethodName
 
     # The syntax sugger for `Shiyo::Not.new`
