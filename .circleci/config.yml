@@ -13,7 +13,7 @@ jobs:
       - run:
           name: Run RSpec
           command: |
-            bundle exec rake
+            bundle exec rspec
       - run:
           name: Run Rubocop
           command: |
