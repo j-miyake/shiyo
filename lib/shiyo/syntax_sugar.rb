@@ -1,11 +1,11 @@
 # frozen_string_literal: true
 
 module Shiyo
-  # The module to provide syntax suggers.
+  # The module to provide syntax sugars.
   module SyntaxSugar
     # rubocop:disable Naming/MethodName
 
-    # The syntax sugger for `Shiyo::Not.new`
+    # The syntax sugar for `Shiyo::Not.new`
     # @param object Any object.
     # @return [Shiyo::Not]
     def Not(object)
