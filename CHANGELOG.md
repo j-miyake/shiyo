@@ -1,4 +1,8 @@
 ## [Unreleased]
+## [0.1.1] - 2022-03-15
+
+- Install `bump` gem
+- Trivial refactorings
 
 ## [0.1.0] - 2022-03-12
 
