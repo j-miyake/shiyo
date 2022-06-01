@@ -1,5 +1,5 @@
 # Shiyo
-[![johnny-miyake](https://circleci.com/gh/johnny-miyake/shiyo.svg?style=svg)](https://github.com/johnny-miyake/shiyo)
+[![j-miyake](https://circleci.com/gh/j-miyake/shiyo.svg?style=svg)](https://github.com/j-miyake/shiyo)
 
 Shiyo is a minimal framework that supports writing your business rules using the [Specification pattern](https://en.wikipedia.org/wiki/Specification_pattern).
 It helps you to build a composite specification by method chaining like;
@@ -116,7 +116,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/johnny-miyake/shiyo. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/johnny-miyake/shiyo/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/j-miyake/shiyo. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/j-miyake/shiyo/blob/master/CODE_OF_CONDUCT.md).
 
 ## License
 
@@ -124,4 +124,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Shiyo project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/johnny-miyake/shiyo/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Shiyo project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/j-miyake/shiyo/blob/master/CODE_OF_CONDUCT.md).

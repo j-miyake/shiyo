@@ -12,12 +12,12 @@ Gem::Specification.new do |spec|
   spec.description = <<-DESCRIPTION
     Shiyo is a minimal framework that supports writing your business rules using the Specification pattern.
   DESCRIPTION
-  spec.homepage = "https://github.com/johnny-miyake/shiyo"
+  spec.homepage = "https://github.com/j-miyake/shiyo"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/johnny-miyake/shiyo"
-  spec.metadata["changelog_uri"] = "https://github.com/johnny-miyake/shiyo/blob/master/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/j-miyake/shiyo"
+  spec.metadata["changelog_uri"] = "https://github.com/j-miyake/shiyo/blob/master/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
